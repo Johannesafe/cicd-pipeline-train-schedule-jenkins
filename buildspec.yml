@@ -32,3 +32,6 @@ artifacts:
     - gradle/wrapper/gradle-wrapper.jar
     - gradle/wrapper/gradle-wrapper.properties
     - data/trains.json
+    - appspec.yml
+    - scripts/install_dependencies
+    - scripts/start_server
