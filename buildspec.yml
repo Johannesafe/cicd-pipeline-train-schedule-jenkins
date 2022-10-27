@@ -15,24 +15,4 @@ phases:
 artifacts:
   type: 
   files:
-    - app.js
-    - build.gradle
-    - gradlew
-    - gradlew.bat
-    - package-lock.json
-    - package.json
-    - views/error.jade
-    - views/index.jade
-    - views/layout.jade
-    - test/index.test.js
-    - routes/index.js
-    - routes/train.js
-    - public/javascripts/global.js
-    - public/stylesheets/style.css
-    - gradle/wrapper/gradle-wrapper.jar
-    - gradle/wrapper/gradle-wrapper.properties
-    - data/trains.json
-    - appspec.yml
-    - scripts/install_dependencies
-    - scripts/start_server
-    - .gitignore
+   - '**/*'
