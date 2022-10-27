@@ -1,8 +1,8 @@
 version: 0.0
 os: linux	
 files:	
-  - source: views/index.jade	  
-    destination: /var/www/views/	    
+  - source: javascripts/global.js	  
+    destination: /var/www/public/    
 hooks:	
   BeforeInstall:	 
     - location: /scripts/install_dependencies	   
