@@ -1,8 +1,8 @@
 version: 0.0
 os: linux	
 files:	
-  - source: javascripts/global.js	  
-    destination: /var/www/public/    
+  - source: /	  
+    destination: /home/ubuntu/nodejs    
 hooks:	
   BeforeInstall:	 
     - location: /scripts/install_dependencies	   
